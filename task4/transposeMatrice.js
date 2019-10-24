@@ -6,7 +6,7 @@ let mat =
 ]
 function transMat(matrice)
 {
-    // let newMat = []
+     let newMatx = []
     for(let i = 0; i < mat[0].length; i++)
     {
         let newMat = []
@@ -14,8 +14,9 @@ function transMat(matrice)
         {
             newMat.push(mat[j][i])
         }
-        console.log(newMat)
+        newMatx.push(newMat)
     }
     // console.log(newMat)
+    return newMatx
 }
-transMat(mat)
+console.table(transMat(mat))
