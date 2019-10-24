@@ -1,8 +1,27 @@
-let buah = ['Semangka','Jeruk','Apel'];
-console.log(buah);
-buah.push("Semangka");
-console.log(buah);
-buah.splice(1, 1);
-console.log(buah);
-buah[0] = "Mangga";
-console.log(buah);
+let mhs = 
+[
+    {
+        nama: "Andi", 
+        jur: "TI"
+    }, 
+    {
+        nama: "Iyan", 
+        jur: "SI"
+    }, 
+    {
+        nama: "Rahmat", 
+        jur: "TI"
+    },
+]
+console.log(mhs)
+mhs.push(
+    {
+        nama: "Erwin",
+        jur: "SI"
+    }
+)
+console.log(mhs)
+mhs[2].nama = "Adi"
+console.log(mhs)
+mhs.splice(1,1)
+console.log(mhs)
