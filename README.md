@@ -54,6 +54,8 @@ In this repository there are basic examples of algorithms using the Javascript l
         * Read the array of numbers and add up all the members of the array so that the results are only one digit.
     * transposeMatrice.js
         * Programs that have the parameters of a matrix (2-dimensional array) and have the output in the form of transpose of the matrix.
+    * matriceMultiple.js
+        * Program that has 2 matrix parameters and has the output in the form of the product of the two matrices.
 
 <br>
 <i><h3>
