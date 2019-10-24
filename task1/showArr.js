@@ -13,15 +13,22 @@ let mhs =
         jur: "TI"
     },
 ]
-console.log(mhs)
+
+console.table(mhs)
+
 mhs.push(
     {
         nama: "Erwin",
         jur: "SI"
     }
 )
-console.log(mhs)
+
+console.table(mhs)
+
 mhs[2].nama = "Adi"
-console.log(mhs)
+
+console.table(mhs)
+
 mhs.splice(1,1)
-console.log(mhs)
+
+console.table(mhs)
