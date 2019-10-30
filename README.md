@@ -58,8 +58,7 @@ In this repository there are basic examples of algorithms using the Javascript l
         * Program that has 2 matrix parameters and has the output in the form of the product of the two matrices.
 
 <br>
-<i><h3>
-Thank you for looking at my repository, hopefully it will be useful for all of us.
-</h3></i>        
-<h2> Author </h2>
-<h1> Andi Mashdarul Khair </h1>
+
+---
+
+Copyright © 2019 by Andi Mashdarul Khair
